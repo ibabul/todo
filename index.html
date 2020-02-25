@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="./fa/css/all.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+    <div class="contaier">
+        <div class='header'>
+            <h2 class='headings'>To do list <i class="fas fa-list-alt"></i></h2>
+            <button class='btn' id='main-btn'>Add <i class="far fa-calendar-plus"></i></button>
+
+
+
+
+
+
+        </div>
+        <div class='content'>
+            <h1>My lists</h1>
+            <ul>
+                <li>
+                    <span class='circle-container' id='circle' data-attr='undone'> <i class="far fa-circle circle"> </i></span></i>Drink Coffee
+                </li>
+
+            </ul>
+        </div>
+        <div class='popup-element' id='contaier-popoup'>
+            <div class='add-todo' id='popup'>
+                <i class="far fa-window-close icon" id='close'></i>
+
+                <h3>Add to do</h3>
+                <input type="text" placeholder="Add your to-do" name="To-do" class='ip1'>
+                <input type="submit" value="Add" class='ip2'>
+
+            </div>
+        </div>
+
+
+        <div class='completed'>
+            <p>Completed Task</p>
+
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
